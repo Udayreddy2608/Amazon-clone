@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    color: white;
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0F1111 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    height: 50px;
+    background-image: url("amazon-logo.svg");
+    background-size: cover;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.pinsymbol{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+.border:hover{
+    border: 1.5px solid rgb(125, 122, 122);
+}
+
+/*location*/
+
+.add-first{
+    color: #CCCCCC;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.add-sec{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+
+/*box3*/
+
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    width: 575px;
+    height: 40px;
+    border-radius: 4px;
+    border: 4px solid transparent;
+    border-radius: 8px;
+}
+.search-select{
+    color: #0F1111;
+    text-align: center;
+    background-color: #c1bebe;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 55px;
+    border: none;
+}
+
+.search-input{
+    width: 475px;
+    border: none;
+    font-size: 1rem;
+}
+.searchicon{
+    width: 45px;
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #cc8306;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.searchicon:hover{
+    background-color:#ad6f03 ;
+}
+
+.navsearch:hover{
+    border: 4px solid #ad6f03;
+}
+
+/* Account */
+.account-lists{
+    margin-top: 8px;
+    width: 132px;
+    height: 40px;
+}
+
+.acc-select{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+.hello{
+    font-size: 0.7rem;
+    margin-left: 5px;
+}
+
+/*cart*/
+.cart i {
+    font-size: 30px;
+    height: 15px;
+}
+
+.cart{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/*panel*/
+.panel{
+    height: 39px;
+    font-size: 1rem;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pm{
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+}
+
+.other-elements{
+    width: 60%;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.hero{
+    height: 300px;
+    background-image: url("main_back.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.boxes{
+    height: 450px;
+    background-color:gray ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boxes2{
+    height: 450px;
+    background-color:gray ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    position: relative;
+    height: 420px;
+    width: 335px;
+    background-color: white;
+    padding-top: 20px;
+
+}
+
+
+h2{
+    color: #0F1111;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row1{
+    width: 285px;
+    height: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.row1-l{
+    width: 140px;
+    height: 110px;
+    background-color: transparent;
+}
+p{
+    color: #0F1111;
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.inbox{
+    color: blue;
+    text-align: left;
+}
+
+.bot-sign{
+    height: 126px;
+    width: 1440px;
+    background-color: transparent;
+    border: 1px solid rgba(61, 59, 59,0.2);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.bot-sign button{
+    width: 230px;
+    height:28px;
+    background-color:#f4c828;
+    border: 1px solid #ad6f03 ;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+.nav-footer{
+    height: 770px;
+    background-color: #0F1111;
+}
+
+.back-to-top{
+    height: 50px;
+    background-color: #283441;
+}
+
+.back-to-top :hover{
+    background-color:#363e45;
+}
+
+.back-to-top button{
+    height: 50px;
+    width: 100%;
+    background-color:#303a44;
+    font-family: Arial, Helvetica, sans-serif;
+    border: transparent;
+}
+
+.panel2{
+    height: 300px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    border-bottom: 0.5px solid rgb(73, 70, 70);
+}
+
+.panel2 h2{
+    color: white;
+    font-size: 1rem;
+}
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    margin: 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.panel3{
+    height: 70px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.logo-bottom{
+    height: 50px;
+    width: 100px;
+    background-image: url("amazon-logo.svg");
+    background-size: cover;
+}
+
+.lan-sel select{
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+}
+.panel4{
+    background-color: #000;
+    height:76.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel4 ul{
+    margin-top: 10px;
+    display: flex;
+}
+
+.panel4 p{
+    text-align: center;
+}
+
+
+
+/*
+.headphone{
+    background-image: url("headphon.jpg");
+    background-size:contain
+    background-repeat: no-repeat;
+}
+.key{
+    background-image: url("keyboard.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.mouse{
+    background-image: url("mouse.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.chair{
+    background-image: url("chair.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+*/
